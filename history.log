@@ -1,0 +1,520 @@
+   87  git push wm master
+   88  git pull
+   89  git pull wm master
+   90  git revert 588a1be
+   91  git log --oneline
+   92  git push wm master
+   93  git status
+   94  git add .
+   95  git status
+   96  git reset
+   97  git status
+   98  ls
+   99  vi users.java 
+  100  git status
+  101  git log --oneline 
+  102  git push wm master
+  103  git pull wm master
+  104  git push wm master
+  105  cat users.java 
+  106  git log --oneline 
+  107  git status
+  108  git add .
+  109  git commit -m "adding kumar"
+  110  git log --oneline 
+  111  git revert b979232
+  112  git log --oneline 
+  113  git status
+  114  whoami
+  115  git congif --global --list
+  116  git config --global --list
+  117  exit
+  118  git congif --global --list
+  119  git config --global --list
+  120  whoami
+  121  git config --globally --list
+  122  git config --global --list
+  123  clear
+  124  pwd
+  125  pwd
+  126  git --version
+  127  cd ~/Desktop/
+  128  pwd
+  129  mkdir wallmart
+  130  pwd
+  131  git init
+  132  cd wallmart/
+  133  pwd
+  134  git init
+  135  pwd
+  136  cd C:/Users/heman/Desktop/wallmart/.git/
+  137  exit
+  138  cd ~/Desktop/
+  139  ls
+  140  pwd
+  141  cd .git/
+  142  ls
+  143  pwd
+  144  ls
+  145  cd ..
+  146  ls
+  147  cd wallmart/
+  148  ls
+  149  ls
+  150  ls -la
+  151  pwd
+  152  clear
+  153  git init
+  154  git status
+  155  git remote -v
+  156  git remote add wm https://github.com/iamhemanthkumargudla7/wallmart.git
+  157  git remote -v
+  158  ls
+  159  ls -la
+  160  vi first_file
+  161  vi seconda_file
+  162  ls
+  163  rm seconda_file second_file
+  164  mv seconda_file second_file
+  165  ls
+  166  ls -la
+  167  vi second_file
+  168  ls
+  169  vi third_file
+  170  ls
+  171  git status
+  172  git add first_file 
+  173  git status 
+  174  git add .
+  175  git status 
+  176  git commit -m "First_Commit"
+  177  git status
+  178  git log
+  179  git log --oneline
+  180  git show 46d530f
+  181  vi first_file 
+  182  git status
+  183  vi fourth_file
+  184  git status
+  185  git add -a -m "Updated First_File"
+  186  git status
+  187  git add -am "Updated First_File"
+  188  git add status
+  189  git status
+  190  git add fourth_file 
+  191  git commit -m "adding fourth_file"
+  192  git status
+  193  git log
+  194  git log --oneline
+  195  git status
+  196  git add -a -m "adding modified first_file"
+  197  git status
+  198  vi fifth_file
+  199  git status
+  200  git commit -a -m "adding modified file"
+  201  git status
+  202  git status
+  203  git add .
+  204  git commit -m "Adding_fifth_file"
+  205  git status
+  206  git log
+  207  git log --oneline
+  208  git push wm master
+  209  git pull
+  210  git pull wm origin
+  211  git pull wm master
+  212  git log
+  213  exit
+  214  git remote -v
+  215  git clone https://github.com/iamhemanthkumargudla7/shake-n-bake.git
+  216  git clone https://github.com/iamhemanthkumargudla7/Docker-Zero-to-Hero.git
+  217  git clone https://github.com/iamhemanthkumargudla7/terraform-zero-to-hero.git
+  218  git clone https://github.com/iamhemanthkumargudla/Jenkins_Multibranch.git
+  219  git clone https://github.com/iamhemanthkumargudla/Jenkins_Multibranch.git
+  220  git clone https://github.com/iamhemanthkumargudla/MagentoApplication.git
+  221  exit
+  222  exit
+  223  pwd
+  224  git init
+  225  pwd
+  226  exit
+  227  git config --global --list
+  228  git clone https://github.com/iamhemanthkumargudla7/Chips-n-Guac.git
+  229  ls
+  230  cd Chips-n-Guac/
+  231  ls
+  232  git init
+  233  git branch
+  234  whoami
+  235  ls -la
+  236  git config --global --list
+  237  git pull
+  238  git branch
+  239  git log --oneline
+  240  git show f703ca0
+  241  git fetch
+  242  git show --pretty="" --name-only f703ca0
+  243  touch t1 t2 t3 t4 t5
+  244  ls
+  245  git status
+  246  git add .
+  247  git status
+  248  git reset
+  249  git status
+  250  git add t1 t3 t5
+  251  git status
+  252  git reset t1 t3
+  253  git status
+  254  git reset t5
+  255  git status
+  256  vi t1
+  257  git status
+  258  git add .
+  259  git log
+  260  git log --oneline
+  261  git status
+  262  git commit -m "added temp files"
+  263  git status
+  264  git log --oneline
+  265  git push
+  266  git log --oneline
+  267  git revert ea02c51
+  268  git log --oneline
+  269  git fetch
+  270  git pull
+  271  ls
+  272  git log --oneline
+  273  git status
+  274  git show dcc0e28
+  275  git show --pretty="" --name-only dcc0e28
+  276  git push -f 
+  277  ls
+  278  cd ..
+  279  ls
+  280  cd Chips-n-Guac/
+  281  ls
+  282  vi test.sh
+  283  vi test.py
+  284  ls
+  285  git status
+  286  git add .
+  287  git status
+  288  git reset test.sh
+  289  git reset test.py
+  290  git add .
+  291  git ststus
+  292  git status
+  293  git reset test.py
+  294  git status
+  295  git add .
+  296  git status
+  297  git commit -m "updated test files"
+  298  git status
+  299  git push https://github.com/iamhemanthkumargudla7/Chips-n-Guac.git master
+  300  ls
+  301  touch one.class two.class three.class
+  302  touch four.java five.java 
+  303  touch info.txt
+  304  mkdir dell
+  305  ls
+  306  git status
+  307  rm dell/
+  308  rm -f dell/
+  309  rm -r dell/
+  310  ls
+  311  mkdir /dell
+  312  mkdir dell
+  313  ls
+  314  git status
+  315  git add .
+  316  git commit -m ". files are added"
+  317  git push
+  318  vi .gitignore
+  319  git status
+  320  git add .
+  321  git commit -m "added .gitignore file"
+  322  git push
+  323  git log --oneline
+  324  git revert 9ace31d
+  325  git log --oneline
+  326  git push
+  327  ls
+  328  ls -la
+  329  vi .gitignore
+  330  git status
+  331  git commit -m "adding modified .gitignore file"
+  332  git status
+  333  git add .
+  334  git commit -m "adding modified .gitignore file"
+  335  gitstatus
+  336  git status
+  337  git push
+  338  git status
+  339  touch ten.class
+  340  git status
+  341  git rm -r --cached .class
+  342  git rm -r --cached
+  343  git rm -r --cached info.txt
+  344  git status
+  345  git status
+  346  git add .
+  347  git commit -m "adding ten.class file"
+  348  git push
+  349  git status
+  350  git branch
+  351  git log --oneline
+  352  git branch Dev
+  353  git branch
+  354  git checkout Dev 
+  355  git branch
+  356  vi dev1.txt
+  357  git status
+  358  vi dev2.txt
+  359  git status
+  360  git add .
+  361  git commit -m "Dev files added into Dev branch"
+  362  git checkout master
+  363  git checkout Dev 
+  364  touch dev3.txt dev4.txt
+  365  git status
+  366  git commit -m "added two more dev files into dev branch"
+  367  git add .
+  368  git commit -m "added two more dev files into dev branch"
+  369  git status
+  370  git log --oneline
+  371  git branch Dev2
+  372  git nranch
+  373  git branch
+  374  git checkout Dev2
+  375  git branch
+  376  touch dev2-1 dev2-2
+  377  git status
+  378  git commit -m "added dev2 files"
+  379  git add .
+  380  git commit -m "added dev2 files"
+  381  git status
+  382  git log --oneline
+  383  touch dev2-3
+  384  touch dev2-4
+  385  git status
+  386  git add .
+  387  git commit -m "two more dev2 files are added into dev2 branch"
+  388  git log --oneline
+  389  git checkout master
+  390  git branch
+  391  git merge Dev2
+  392  git branch'
+  393  git branch
+  394  git diff Dev2
+  395  git diff Dev
+  396  git diff Dev Dev2
+  397  git branch
+  398  git merge Dev
+  399  git log --oneline
+  400  git push https://github.com/iamhemanthkumargudla7/Chips-n-Guac.git master
+  401  git checkout -b stage
+  402  git checkout master
+  403  git branch prod
+  404  git branch
+  405  git push https://github.com/iamhemanthkumargudla7/Chips-n-Guac.git --all
+  406  touch stage_file1
+  407  git branch
+  408  rm -f stage_file1
+  409  git checkout stage 
+  410  touch stage_file1
+  411  git checkout master
+  412  git checkout prod 
+  413  touch prod_first_file
+  414  git status
+  415  git checkout stage
+  416  git add .
+  417  git add commit "commit from stage branch"
+  418  git add commit -m "first commit from stage branch"
+  419  git commit -m "first commit from stage branch"
+  420  git status
+  421  git merge stage
+  422  git checkout master
+  423  git merge stage prod
+  424  git status
+  425  git log --oneline
+  426  git branch -d prod
+  427  git push
+  428  git pull
+  429  git branch
+  430  git push
+  431  git push -f
+  432  git branch
+  433  git branch https://github.com/iamhemanthkumargudla7/Chips-n-Guac.git -all
+  434  git branch https://github.com/iamhemanthkumargudla7/Chips-n-Guac.git --all
+  435  git push https://github.com/iamhemanthkumargudla7/Chips-n-Guac.git --all
+  436  git branch -a
+  437  git log --oneline
+  438  git pull -p
+  439  git remote prune origin
+  440  git push origin:prod
+  441  git push origin :prod
+  442  git pull -p
+  443  exit
+  444  deployment names
+  445  git init
+  446  git clone https://github.com/iamhemanthkumargudla7/wallmart.git
+  447  git config --global --list
+  448  exit
+  449  key-gen
+  450  ssh-keygen
+  451  ls -la ~/.ssh
+  452  cat known_hosts
+  453  cat known_hosts
+  454  cat id_rsa.pub
+  455  cat ~/.ssh/id_rsa.pub
+  456  pwd
+  457  ls
+  458  cd /c/Users/heman/
+  459  pwd
+  460  ls
+  461  cd .ssh/
+  462  ls
+  463  cat id_rsa.pub 
+  464  exit
+  465  git config --global --list
+  466  git clone https://github.com/iamhemanthkumargudla7/wallmart.git
+  467  git push https://github.com/iamhemanthkumargudla7/wallmart.git master
+  468  touch a1
+  469  git add .
+  470  ls
+  471  cd wallmart/
+  472  git push https://github.com/iamhemanthkumargudla7/wallmart.git msster
+  473  git push https://github.com/iamhemanthkumargudla7/wallmart.git master
+  474  ssh -T git@github.com
+  475  git clone git@github.com:iamhemanthkumargudla7/wallmart.git
+  476  pwd
+  477  exit
+  478  ssh -i "SonarQube Server.pem" ec2-user@ec2-18-220-55-201.us-east-2.compute.amazonaws.com
+  479  ls
+  480  chmod 400 "SonarQube Server.pem"
+  481  chmod 400 "SonarQube Server"
+  482  ls -l SonarQube Server
+  483  pwd
+  484  ssh -i "SonarQube Server.pem" ec2-user@ec2-18-220-55-201.us-east-2.compute.amazonaws.com
+  485  ssh -i "SonarQube Server.pem" ec2-user@ec2-18-220-55-201.us-east-2.compute.amazonaws.com
+  486  ls
+  487  ssh -i "SonarQube Server.pem" ec2-user@ec2-18-220-55-201.us-east-2.compute.amazonaws.com
+  488  ssh -i "SonarQube Server.pem" ec2-user@ec2-18-220-55-201.us-east-2.compute.amazonaws.com
+  489  ssh -i "SonarQube_Server.pem" ec2-user@ec2-18-220-55-201.us-east-2.compute.amazonaws.com
+  490  curl http://3.14.72.3:9000/api/system/status
+  491  curl http://18.118.173.116:9000/
+  492  curl http://18.118.173.116:9000
+  493  pwd
+  494  cd "/c/Users/heman/Downloads
+  495  cd "/c/Users/heman/Downloads"
+  496  pwd
+  497  chmod 400 "Server.pem"
+  498  chmod 400 "Server.pem"
+  499  ec2-98-81-203-19.compute-1.amazonaws.com
+  500  ssh -i "Server.pem" ec2-user@ec2-98-81-203-19.compute-1.amazonaws.com
+  501  pwd
+  502  cd "C:\Users\heman\Workspace"
+  503  pwd
+  504  git --version
+  505  cd .
+  506  pwd
+  507  cd ..
+  508  pwd
+  509  mkdir tim project
+  510  mkdir tim_project
+  511  pwd
+  512  cd tim_project/
+  513  git init
+  514  cat > first_file
+  515  git add .
+  516  git commit -m "First Commit"
+  517  git remote add origin https://github.com/iamhemanthkumargudla7/tim.git
+  518  git push origin master
+  519  git log --oneline
+  520  git status
+  521  git config --global --list
+  522  git remote -v
+  523  git show 214be13
+  524  git show --pretty="" --name-only 214be13
+  525  ls
+  526  vi first_file 
+  527  git status
+  528  git commit -a -m "Second commit-file-mod"
+  529  git status
+  530  git pull
+  531  git pull origin master
+  532  cat first_file 
+  533  it log --oneline
+  534  git log --oneline
+  535  ls
+  536  cat second_file
+  537  cat > second_file
+  538  git status
+  539  git add .
+  540  ls
+  541  git status
+  542  git reset
+  543  git status
+  544  git add .
+  545  git commit -m "Second commit"
+  546  git status
+  547  cat > third_file
+  548  git commit -m "Third Commit"
+  549  git add .
+  550  git commit -m "Third Commit"
+  551  ls
+  552  vi third_file 
+  553  git status
+  554  git commit -a -m "Third Commit modified"
+  555  git status
+  556  git log --oneline
+  557  git show 214be13
+  558  git show b33fd47
+  559  git show 21fd2f3
+  560  git log --oneline
+  561  git revert 29bf634
+  562  git log --oneline
+  563  git show 3c70400
+  564  git show 29bf634
+  565  git status
+  566  git log --oneline
+  567  git push origin master
+  568  git show 3c70400
+  569  git log --oneline
+  570  git show 214e13
+  571  git show 214be13
+  572  git show b33fd47
+  573  git log --oneline
+  574  git show 21fd2f3
+  575  git show 139f7af
+  576  git log --oneline
+  577  git show 29bf634
+  578  git show 3c70400
+  579  cv     ]'
+vbg*9
+_{P.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p0
+  580  pwd
+  581  git status
+  582  git log --oneline
+  583  git show 3c70400
+  584  git branch
+  585  history
+  586  history >> history.log
