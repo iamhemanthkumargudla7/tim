@@ -9,4 +9,5 @@ else
 print("A is Smaller than B")
 }
 
-Thanks
+Thanks & Regrads
+Hemanth
