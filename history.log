@@ -490,27 +490,7 @@
   576  git log --oneline
   577  git show 29bf634
   578  git show 3c70400
-  579  cv     ]'
-vbg*9
-_{P.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p0
+  579  cv
   580  pwd
   581  git status
   582  git log --oneline
